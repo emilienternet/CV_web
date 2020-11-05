@@ -13,6 +13,12 @@ h3{
 body{
 	font-family: 'Lato', sans-serif;
 }
+.rectangle_bleu{
+	background-color: #D8FBFF;
+}
+.rectangle_rouge{
+	background-color: #E2E2E2;
+}
 .date-lieux{
 	font-style: italic;
 	color: #789AD4;
@@ -25,4 +31,8 @@ body{
 }
 .débutant-niveau{
 	color: #83A2D8;
+}
+.entreprise{
+	font-style: italic;
+	color: #3667BE;
 }
