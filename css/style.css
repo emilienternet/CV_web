@@ -1,11 +1,15 @@
 h1{
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
+	text-align: center;
+	margin-bottom: 0px;
 }
 
 h2{
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	text-align: center;
+	margin-top: 0px;
 }
 
 h3{
@@ -15,6 +19,18 @@ h3{
 
 body{
 	font-family: 'Lato', sans-serif;
+	background-image: url('../images/personnage.png');
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-size: 10%;
+ 	background-position: center;
+}
+
+.image{
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  style
 }
 
 .rectangle_bleu{
@@ -24,6 +40,15 @@ body{
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 10px;
+	margin-right: 65%;
+}
+
+.rectangle_rouge{
+	background-color: #DEDEDE;
+	margin: 10px;
+	margin-left: 550px;
+	margin-right: 550px;
+	text-align: center;
 }
 
 .ligne-gauche{
@@ -33,14 +58,6 @@ body{
 	border-right-style: none;
 	padding-left: 10px;
 	margin: 10px;
-}
-
-.rectangle_rouge{
-	background-color: #DEDEDE;
-	margin: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	text-align: center;
 }
 
 .date-lieux{
